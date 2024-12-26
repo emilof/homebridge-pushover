@@ -51,6 +51,12 @@ Configure your **~/.homebridge/config.json** with the following platform.
                     "name": "Ringklocka",
                     "message": "Det ringer på dörren",
                     "priority": "high"
+                },
+                {
+                    "name": "Viktigt meddelande",
+                    "message": "Meddelande med anpassat ljud",
+                    "priority": "high",
+                    "sound": "persistent"
                 }
             ]
 
